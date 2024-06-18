@@ -1,0 +1,121 @@
+/* General Styles */
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('./background22.jpg') no-repeat center center fixed; /* Add your background image here */
+    background-size: cover;
+    color: #fff;
+}
+
+/* Navbar Styles */
+nav {
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Section Styles */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section h1, section h2 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#home {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 100px 20px;
+}
+
+#about, #work, #resume, #contact {
+    background: rgba(0, 0, 0, 0.7);
+    margin: 20px auto;
+    padding: 40px 20px;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+#resume a {
+    display: inline-block;
+    background: rgb(255, 196, 0);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+#resume a:hover {
+    background: #005;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form input[type="submit"] {
+    background:rgb(255, 196, 0);
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background: #005;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
